@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>컴퓨터 기초실습 5주차 실습과제</title>
+  </head>
+  <body>
+    <h1>20250001홍길동table.html</h1>
+    <hr />
+    <table>
+      <caption><b><small>표를 만들어 보아요!</small></b></caption>
+      <!-- bold, small 디테일챙김 -->
+      <colgroup span="2" style="background: lightblue"></colgroup>
+      <colgroup span="2" style="background: orange"></colgroup>
+      <!-- 색 같은거는 그냥 상관없을듯 비슷한거로 -->
+      <thead style="background: paleturquoise; line-height: 3">
+        <tr>
+          <th colspan="4">INJE UNIVERSITY</th>
+        </tr>
+      </thead>
+      <tbody style="line-height: 3">
+        <!-- line-height 넣어야함 -->
+        <tr>
+          <th>&nbsp;학 과&nbsp;</th>
+          <td>&nbsp;컴퓨터공학과&nbsp;</td>
+          <td rowspan="2" colspan="2" style="line-height: 0"><img src="https://www.inje.ac.kr/kor/Download.asp?patch=M01&filename=Inje_Authority%20Mark.jpg" width="200" height="200"></td>
+          <!-- 이미지 구글에 쳐서 긁어옴, 얘는 line-height 0 -->
+        </tr>
+        <tr>
+          <th>&nbsp;학 번&nbsp;</th>
+          <td>&nbsp;20250001&nbsp;</td>
+        </tr>
+        <tr>
+          <th colspan="2">이름</th>
+          <td>&nbsp;홍 길 동&nbsp;</td>
+          <td>&nbsp;Hong, Gildong&nbsp;</td>
+        </tr>
+      </tbody>
+      <tfoot style="background: pink; line-height: 3">
+        <tr>
+          <th colspan="4">인 제 대 학 교</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
