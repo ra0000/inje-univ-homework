@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6주차실습과제</title>
+</head>
+<body>
+    <h1>6주차 실습과제</h1>
+    <hr>
+    <h3>20251420 이산 볶아볶아 인제대점입니다!</h3>
+    <form>
+        <fieldset>
+            <legend>볶음밥 종류를 선택하세요</legend>
+            <select name="boks">
+                <option value="eggbok">계란볶음밥 - 7000원</option>
+                <option value="bok">볶음밥 - 6000원</option>
+                <option value="cheese">치즈볶음밥 - 7000원</option>
+            </select>
+        </fieldset><br>
+        <fieldset>
+            <legend>맵기 정도를 선택하세요</legend>
+            <input type="radio" name="hot" value="0">0단계 (맵지 않음)<br>
+            <input type="radio" name="hot" value="1">1단계 (살짝 매움)<br>
+            <input type="radio" name="hot" value="2" checked>2단계 (보통 매움)<br>
+            <input type="radio" name="hot" value="3">3단계 (매움)<br>
+            <input type="radio" name="hot" value="4">4단계 (매우 매움)<br>
+            <input type="radio" name="hot" value="5">5단계 (불닭 수준)<br>
+        </fieldset><br>
+        <fieldset>
+            <legend>추가 토핑을 선택하세요</legend>
+            <input type="checkbox" name="toping" value="egg" checked>계란
+            <input type="checkbox" name="toping" value="cheese">치즈
+            <input type="checkbox" name="toping" value="ham">햄
+            <input type="checkbox" name="toping" value="bakun">베이컨
+            <input type="checkbox" name="toping" value="saeuu">새우
+            <input type="checkbox" name="toping" value="spice">청양고추
+            <input type="checkbox" name="toping" value="onion">양파
+            <input type="checkbox" name="toping" value="oksusu">옥수수
+        </fieldset><br>
+        <fieldset>
+            <legend>음료를 선택하세요</legend>
+            <select name="drinks">
+                <option value="">선택 안 함</option>
+                <option value="pepsi">펩시 - 4000원</option>
+                <option value="pepsi_zero">펩시(제로) - 4000원</option>
+                <option value="sevenstar">칠성사이다 - 4000원</option>
+                <option value="sevenstar_zero">칠성사이다(제로) - 4000원</option>
+            </select>
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>배달 정보</legend>
+            이름: <input type="text" name="name">
+            전화번호: <input type="tel" name="phone" placeholder="010-1234-5678" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
+            주소: <input type="text" name="address" placeholder="도로명 주소 입력">
+            배달 시간: <input type="date" name="date" value="2025-04-09"><input type="time" name="time" value="12:15">
+        </fieldset><br>
+    
+        <fieldset>
+            <legend>요청 사항</legend>
+            <textarea rows="3" cols="100" name="request" placeholder="예: 청양고추 많이 넣어주세요"></textarea>
+        </fieldset><br>
+        
+        <button type="submit">주문하기</button>
+        <button type="reset">초기화</button>
+    </form>
+</body>
+</html>
