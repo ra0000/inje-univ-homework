@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo elements</title>
+    <style>
+        p::first-line { color: blue; }
+        p::first-letter {
+            font-size: 20pt;
+            font-style: italic; color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>가상 요소 - 첫 글자 & 첫 줄 스타일 정의</h1><hr>
+    <p>첫 글자는 빨간 색이고, 20포인트 크기의 이택릴체로
+        나타난다. 첫 줄은 파란 색이고 그 다음 줄부터는 기본 글자색인
+        검정으로 나타난다.
+    </p>
+</body>
+</html>
