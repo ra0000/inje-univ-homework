@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9주차실습과제</title>
+    <style>
+        hr {
+            border: 1px solid #a0a0a0;
+        }
+        article p {
+            background-color: rgb(227, 255, 255);
+            color: #808080;
+        }
+        article p::first-line { color: blue; }
+        article p::first-letter {
+            font-size: 16pt;
+            font-style: italic;
+            color: rgb(253, 172, 186);
+            font-weight: bold;
+        }
+        .red {
+            color: red;
+        }
+        .green {
+            color: green;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="20251420이산.css">
+</head>
+<body>
+    <header>
+        <div style="text-align: right; font-size: 10pt; color: red;">컴퓨터 기초실습 9주차 실습과제</div>
+        <h1 style="background-color: deeppink; color: purple;">Cascading Style Sheets 사용하기</h1>
+    </header>
+    <hr>
+    <article>
+        <p>
+            웹 페이지는 단순한 정보 전달을 넘어 사용자가 쉽게 이해하고 탐색할 수 있도록 시각적으로 구성되어야 한다. 이를 위해 사용되는 기술이 바로 <b class="red">CSS</b>(Cascading Style Sheets)로, <b class="green">HTML</b> 구조 위에 색상, 글꼴, 배치 등 다양한 스타일을 적용해 웹사이트를 더욱 시각적으로 풍부하고 직관적으로 만든다.<br>
+            <b class="red">CSS</b>의 핵심 장점은 디자인과 콘텐츠의 분리다. <b class="green">HTML</b>은 문서의 구조를 담당하고, <b class="red">CSS</b>는 그 구조에 디자인을 입힘으로써 유지보수가 쉬워지고, 일관된 스타일을 여러 페이지에 적용할 수 있게 된다. 이로 인해 웹사이트의 개발과 관리가 효율적이고 체계적으로 이루어질 수 있다.<br>
+            <b class="red">CSS</b>는 여러 방식으로 <b class="green">HTML</b> 문서에 적용될 수 있으며, 특히 외부 스타일 시트를 사용하는 방식은 사이트 전반에 걸쳐 일관된 디자인을 유지하면서도, 코드의 재사용성과 관리 편의성을 높여준다.
+        </p>
+    </article>
+    <hr>
+    <aside>
+        <h3>주의사항</h3>
+        <ol>
+            <li>셀렉터를 골고루 사용하세요!</li>
+            <li>header, footer 영역은 인라인 스타일 시트 사용</li>
+            <li>article 영역(본문)은 내부 스타일 시트 사용</li>
+            <li>aside 영역(주의사항)은 외부 스타일 시트 사용</li>
+            <li>수업 파일에서 사용한 스타일 시트를 참고하여 글꼴, 크기나 색상은 자유롭게 지정</li>
+            <li>외부 스타일 시트 파일은 <b class="green">학번이름2.css</b>로 저장하여 함께 제출(압축하지 말 것!)</li>
+        </ol>
+    </aside>
+    <hr>
+    <footer>
+        <p style="color: purple; font-style: italic;">copyright&copy; 20251420 이산 All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
