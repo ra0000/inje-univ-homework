@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테두리 속성</title>
+    <style>
+        .border {
+            border: 20px solid; /* 기본 테두리 설정 필수 */
+            border-image: url(round.PNG) 35 round;
+            width: 300px;
+            padding: 20px;
+            margin-bottom: 1em;
+        }
+        .font {
+            font-size: 20pt;
+            color: red;
+            text-align: center;
+            line-height: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>테두리 속성</h1><hr>
+    <div class="border font">
+        테두리에 이미지 넣기<br>
+        stretch/ repeat/ round</div>
+    <!-- stretch는 에지 이미지를 테두리 길이만큼 늘여 배치
+        repeat은 에지 이미지 반복 배치
+        round는 에지 이미지 반복 & 크기 길이에 맞추어 자동 조절 -->
+    <img src="round.PNG"> <!-- 원본 이미지 -->
+</body>
+</html>

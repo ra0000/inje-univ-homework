@@ -1,0 +1,18 @@
+h2 {
+    display: inline;
+}
+a {
+    display: block;
+    font-size: 1.5em;
+}
+li { /* marker 실종됨 */
+    display: inline;
+}
+.box {
+    width: 120px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: olive;
+    display: inline-block;
+} /* inline, block 속성 모두 가짐 */

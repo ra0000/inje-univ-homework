@@ -1,0 +1,19 @@
+#layer1 {
+    background-color: green;
+} /* overflow: visible;이 디폴트 */
+#layer2 {
+    background-color: yellow;
+    overflow: hidden;
+}
+#layer3 {
+    background-color: blue;
+    overflow: /* scroll */ auto;
+}
+.layer-size {
+    width: 450px;
+    height: 250px;
+}
+img {
+    width: 200px;
+    height: 150px;
+}
